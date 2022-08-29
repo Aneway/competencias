@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import {MaterialIcons} from '@expo/vector-icons'
 
 // Estilos Conhecimento
 export const ExcluirConteiner = styled.View`
@@ -9,7 +10,7 @@ export const ExcluirConteiner = styled.View`
 `
 export const Descricao = styled.Text`
     flex: 1;
-    height: 56px;
+    height: 63px;
     text-align: center;
     padding: 12px;
     font-size: 16px;
@@ -26,7 +27,7 @@ export const Botao = styled.TouchableOpacity`
     align-items: center;
     justify-content: center;
 `
-export const BotaoTexto = styled.Text`
+export const Icone = styled(MaterialIcons)`
     color: #f5f3f4;
     font-size: 28px;
     font-weight: bold;
